@@ -1,2 +1,3 @@
-# ICO_New
-ICO_New, token presale, connect to several wallets, backend, smart contracts
+# 🗃 ICO Presale Website
+## Simple Design
+## Token and Presale Smart Contracts
