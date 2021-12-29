@@ -38,8 +38,11 @@ const Saler = (props) => {
   const connectWalletPressed = async () => { //TODO: implement
     if (!isWalletConnected()) {
       const { address, status } = await connectWalletUsingWeb3();
+      console.log("============="); // fix+
       setWallet(address);
+      console.log("=============1:address=" + address); // fix+
       setStatus(status);
+      console.log("=============2:status=" + status); // fix+
     } else {
       await disconnectWallet();
       setWallet("");
